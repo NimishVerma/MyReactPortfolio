@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+@media (orientation:portrait) {
+   header{
+
+   }
+
+}
+li,a ,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .logo-image {
+    animation: App-logo-spin ease-in-out 5s infinite;
+  }
+}
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+    100%{
+            transform: rotate(-10deg);
+    }
+}
+
+.logo-image{
+
+    cursor: pointer;
+   position: relative;
+    width: 170px;
+    left: 15px;
+    max-height: 70px;
+}
+header{
+    background-color: rgb(39 43 53);
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav-links li a{
+        padding: 0 2px 2px 0;
+
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+}
+
+button:hover{
+        background-color: rgba(0,136,169,0.8);
+
+}
+
+.active{
+    border-bottom: 4px solid #ffb1b1;
+    border-right: 4px solid #ffb1b1;
+}
+

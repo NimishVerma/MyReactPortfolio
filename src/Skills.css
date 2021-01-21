@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+.image_container{
+    /*max-height: 300px;*/
+    /*border-radius: 50%;*/
+    /*overflow: hidden;*/
+}
+
+.MyPicture {
+    height: 30vh;
+    /*width: 30vh;*/
+}
+
+.skill_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+}
+h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+h1 span{
+    font-size: 10rem;
+    font-weight: 800;
+}
+.intro_container{
+    padding: 10px;
+    text-align: center;
+}
+
+.code_container{
+    font-size: 13px;
+    font-family: 'Fira Code',sans-serif;
+    color: greenyellow;
+}
+@media (orientation:portrait) {
+   .code_container {
+      display: none; /* visibility: none; */
+   }
+
+    h1 {
+        font-size: large;
+    }
+    h1 span{
+        font-size: large;
+    }
+}
+@media (orientation:landscape) and (max-width: 700px) {
+   .code_container{
+      display: none; /* visibility: none; */
+   }
+}
+.social_box{
+    margin-left: 30%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}

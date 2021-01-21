@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+// App.jsx
+ 
+import React from 'react';
+import logo from './logo_nv.png';
+// Import the BrowserRouter, Route and Link components
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import Skills from './Skills.js';
+import Experience from './Experience.js';
+import Education from './Education.js';
+import About from './About.js';
 import './App.css';
-
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ <div style={{'background':'rgb(39 43 53)','color':'white','height':'100vh'}}>
+
+
+
+       <Route exact path="/" component={Skills} />
+        <Route path="/articles" component={Education} />
+        <Route path="/articles" component={Experience} />
+        <Route path="/about" component={About} />
     </div>
   );
 }
-
+ 
 export default App;
