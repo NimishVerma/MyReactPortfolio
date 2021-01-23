@@ -1,9 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fc3adcd-5a59-4b86-9c15-f0261b62fc85" name="Default Changelist" comment="Initial Commit&#10;INTRO added&#10;Skeleton created">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Education.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Experience.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExperienceChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nJ4HslavLF0uBu7tkpy2iY4Xv3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nimis\PycharmProjects\myportoflio\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fc3adcd-5a59-4b86-9c15-f0261b62fc85" name="Default Changelist" comment="" />
+      <created>1611094774138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611094774138</updated>
+      <workItem from="1611094775948" duration="16118000" />
+      <workItem from="1611178595502" duration="8064000" />
+      <workItem from="1611264627297" duration="18394000" />
+      <workItem from="1611352269391" duration="8937000" />
+      <workItem from="1611374177409" duration="602000" />
+      <workItem from="1611436786757" duration="919000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit&#10;INTRO added&#10;Skeleton created">
+      <created>1611210905723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611210905723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit&#10;INTRO added&#10;Skeleton created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit&#10;INTRO added&#10;Skeleton created" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="94" key="#ESLint" timestamp="1611114911946">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="722" y="94" key="#ESLint/62.0.1474.864@62.0.1474.864" timestamp="1611114911946" />
+    <state x="722" y="94" key="#Notifications" timestamp="1611211042211">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="722" y="94" key="#Notifications/62.0.1474.864@62.0.1474.864" timestamp="1611211042211" />
+    <state x="787" y="14" key="CommitChangelistDialog2" timestamp="1611211032022">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="787" y="14" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1611211032022" />
+    <state width="1431" height="218" key="GridCell.Tab.0.bottom" timestamp="1611369303079">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="218" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1611369303079" />
+    <state width="1431" height="218" key="GridCell.Tab.0.center" timestamp="1611369303079">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="218" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1611369303079" />
+    <state width="1431" height="218" key="GridCell.Tab.0.left" timestamp="1611369303079">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="218" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1611369303079" />
+    <state width="1431" height="218" key="GridCell.Tab.0.right" timestamp="1611369303079">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="218" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1611369303079" />
+    <state x="972" y="146" key="RollbackChangesDialog" timestamp="1611099554454">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="972" y="146" key="RollbackChangesDialog/62.0.1474.864@62.0.1474.864" timestamp="1611099554454" />
+    <state x="722" y="168" key="Vcs.Push.Dialog.v2" timestamp="1611211163850">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="722" y="168" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1611211163850" />
+    <state x="241" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611367303458">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="241" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1474.864@62.0.1474.864" timestamp="1611367303458" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1611277658060">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1611277658060" />
   </component>
 </project>

@@ -1,0 +1,63 @@
+.experienceFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    height: max-content;
+    background-color: inherit;
+}
+
+
+.experienceChild{
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: -3px 2px 6px 4px #2f3546;
+    margin: 8px 0px;
+    padding: 10px 10px;
+    height: 400px;
+    text-align: center;
+}
+
+.companyLogo{
+    padding: 3%;
+    height: 200px;
+    margin-bottom: 4%;
+}
+.companyLogo img{
+    height: inherit;
+    max-width: 100% !important;
+}
+.companyDetail{
+    margin-top: 10px;
+}
+.LeftCompanyInfo{
+    flex: 50% ;
+}
+.RightCompanyInfo{
+    flex: 50%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.RightCompanyInfo ul{
+      list-style-type: square;
+     margin: 10px;
+  padding: 10px;
+}
+.RightCompanyInfo ul li{
+    padding: 10px;
+}
+
+.jobtitle{
+    color: greenyellow;
+        font-family: 'Fira Code',sans-serif;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .RightCompanyInfo{
+        display: none;
+    }
+
+}

@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
+    /*height: 100vh;*/
 
 }
 h1{
@@ -24,10 +25,17 @@ h1{
 h1 span{
     font-size: 10rem;
     font-weight: 800;
+        color: greenyellow;
+        font-family: 'Fira Code',sans-serif;
+
+
 }
+
+
 .intro_container{
     padding: 10px;
     text-align: center;
+
 }
 
 .code_container{
@@ -57,4 +65,69 @@ h1 span{
     width: 50%;
     display: flex;
     justify-content: space-between;
+    transition: all 0.3s ease 0s;;
+
+}
+.social_box a {
+height: 24px;
+    width: 24px;
+}
+.Github svg{
+    visibility: hidden;
+    opacity: 0;
+        left: 10px;
+    position: relative;
+}
+
+.Github:hover > svg{
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+   visibility: visible;
+    opacity: 1;
+}
+
+
+.Linkedin svg{
+    visibility: hidden;
+    opacity: 0;
+        left: 15px;
+    position: relative;
+}
+
+.Linkedin:hover > svg{
+        transform: rotate(360deg);
+
+    transition: all 1s ease 0s;
+   visibility: visible;
+    opacity: 1;
+}
+
+
+.Medium svg{
+    visibility: hidden;
+    opacity: 0;
+        left: 15px;
+    position: relative;
+}
+
+.Medium:hover > svg{
+        transform: rotate(360deg);
+
+    transition: all 1s ease 0s;
+   visibility: visible;
+    opacity: 1;
+}
+
+
+.adding {
+    animation: blink-caret .75s step-end infinite;
+    transition: 0s;
+      border-right: .15em solid greenyellow; /* The typwriter cursor */
+
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: greenyellow; }
 }

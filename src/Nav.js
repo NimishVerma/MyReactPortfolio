@@ -19,8 +19,8 @@ function Nav(){
             {/*// Set up the Links*/}
             {/*<li> <Link to={"/"}</li>*/}
             <li>  <NavLink exact to="/" className="item" activeClassName="active">Introduction</NavLink></li>
-            <li>  <NavLink to="/articles" className="item" activeClassName="active">Articles</NavLink></li>
-            <li> <NavLink to="/about" className="item" activeClassName="active">About</NavLink></li>
+            <li>  <NavLink to="/Experience" className="item" activeClassName="active">Experience</NavLink></li>
+            <li> <NavLink to="/Education" className="item" activeClassName="active">Education</NavLink></li>
 
           </ul>
                     </nav>

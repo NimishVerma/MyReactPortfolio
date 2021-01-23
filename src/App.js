@@ -12,13 +12,13 @@ import './App.css';
  
 function App() {
   return (
- <div style={{'background':'rgb(39 43 53)','color':'white','height':'100vh'}}>
+ <div style={{'background':'rgb(39 43 53)','color':'white','height':'calc(100vh - 130px)'}}>
 
 
 
        <Route exact path="/" component={Skills} />
-        <Route path="/articles" component={Education} />
-        <Route path="/articles" component={Experience} />
+        <Route path="/education" component={Education} />
+        <Route path="/experience" component={Experience} />
         <Route path="/about" component={About} />
     </div>
   );
